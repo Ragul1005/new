@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+}
+.menu{
+    padding: 30px;
+    background-color:#00000074 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu img{
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    
+}
+.menu  ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 50%;
+    font-size: 20px;
+    }
+    .menu .search{
+        border: 1px solid;
+        border-radius: 20px;
+    
+    }
+.menu .search i{
+    color: aqua;
+    
+}
+.menu .search input{
+    
+    outline: none;
+}
+
+
+
+.menu #xmark #bar{
+color: aqua;
+
+}
+
+.menu .search{
+    padding: 5px 10px;
+ 
+}
+.page{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/736x/9e/6c/a2/9e6ca2ad1dec47b06965cafa1e0c7052.jpg);
+    background-size: cover;
+    background-position: top;
+
+}
+@media(max-width:990px){
+    .menu ul{
+        display: none;
+    }
+    .menu .search input
+    {
+width: 85%;
+font-size: 20px;
+padding: 5px 0;
+}
+.menu .search i
+{
+
+font-size: 24px;
+}
+.menu #xmark
+{
+    display: block;
+    font-size: 24px;
+
+}
+
+}
+@media (max-width:576px) {
+    .menu .search
+    {
+        display: none;
+    }
+    .menu #xmark{
+        display: none;
+    }
+    .menu #bar{
+        display: block;
+        font-size: 15px;
+        
+    }
+    
+}
